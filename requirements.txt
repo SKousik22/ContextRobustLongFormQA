@@ -1,0 +1,29 @@
+# Core numerical and analysis packages
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+tqdm>=4.65
+
+# PyTorch and Hugging Face models
+# For CUDA-specific PyTorch wheels, follow https://pytorch.org/get-started/locally/
+torch>=2.1
+transformers>=4.40
+accelerate>=0.28
+huggingface-hub>=0.22
+sentence-transformers>=2.7
+sentencepiece>=0.2
+
+# GPU inference
+# vLLM requires a supported Linux environment; Windows users should use WSL2/Linux.
+vllm>=0.4
+
+# Evaluation metrics
+bert-score>=0.3.13
+rouge-score>=0.1.2
+nltk>=3.8
+
+# Notebook execution and result generation
+jupyterlab>=4.0
+ipykernel>=6.25
+nbformat>=5.9
